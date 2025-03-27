@@ -12,7 +12,7 @@ from game.audio import AudioManager
 from game.entities import (
     Player, Emotion, PowerUp, criar_particulas_emocao, criar_particulas_jogador, criar_particulas_powerup
 )
-from game.utils import gerar_posicoes_emocoes, desenhar_botao
+from game.utils import gerar_posicoes_emocoes
 from game.renderer import (
     desenhar_tela_menu, desenhar_tela_instrucoes, desenhar_tela_fim_jogo,
     desenhar_interface, desenhar_indicadores_powerup
